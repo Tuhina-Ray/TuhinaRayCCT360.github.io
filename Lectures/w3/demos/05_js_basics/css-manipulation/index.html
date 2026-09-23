@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+	<title>JavaScript Example: CSS</title>
+</head>
+
+<body>
+	<p id="toChange">Click the button to change the style of this paragraph.</p>
+	<button onclick="clickFunction()">Click me</button>
+
+	<script>
+	function clickFunction() {
+		document.getElementById("toChange").style.fontFamily = "Helvetica";
+		document.getElementById("toChange").style.fontSize = "20px";
+		document.getElementById("toChange").style.color = "pink";
+	}
+	</script>
+
+</body>
