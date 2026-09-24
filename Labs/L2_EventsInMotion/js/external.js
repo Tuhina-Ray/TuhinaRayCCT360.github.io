@@ -1,9 +1,11 @@
 
 
-document.getElementById("butClick").onclick = function() {alert("Heres an Alert");
+document.getElementById("butClick").onclick = function() {alert("Surprise :))");
 }
 
+
+
 document.getElementById("popClick").onclick = function (){
-    window.open("popup.html", "", "width=200, height=200");
+    window.open(new URL("../popup.html", windo), "", "width=200, height=200");
 
 }
