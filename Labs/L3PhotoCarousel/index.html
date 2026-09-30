@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Lab 3: Photo Carousel </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1> Lab 3: Photo Carousel</h1>
+
+    <h2> Carousel 1: Journey Afar</h2>
+
+    <div class="carousel" >
+        <div class ="track" id="trackOne">
+            <div class ="slide"> 
+                <img src="images/rocketEarth.jpg">
+            </div>
+
+            <div class ="slide"> 
+                <img src="images/rocketSpace.jpg">
+            </div>
+
+
+            <div class ="slide"> 
+                <img src="images/rocketMoon.png">
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="prev('trackOne')" class="btnPrev"> Previous </button>
+            <button onclick="next('trackOne')" class="btnNext"> Next</button>
+        </div>
+        
+    </div>
+    
+
+    
+    <h2> Carousel 2: Journey Home</h2>
+
+    <div class="carousel" >
+        <div class ="track" id="trackTwo">
+            <div class ="slide"> 
+                <img src="images/rocketMoon.png">
+            </div>
+
+            <div class ="slide"> 
+                <img src="images/rocketSpace.jpg">
+            </div>
+
+
+            <div class ="slide"> 
+                <img src="images/rocketEarth.jpg">
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="prev('trackTwo')" class="btnPrev"> Previous </button>
+            <button onclick="next('trackTwo')" class="btnNext"> Next</button>
+        </div>
+        
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
