@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Working With API</title>
+        <link rel="stylesheet" href="css/style.css" />
 
     </head>
     <body>
-        
+        <main>
+            <h1> Where is the international Space Station?</h1>
+
+            <div class="tracker">
+
+                <p>The latitude of the space station is: <span id="latitude"> Detecting location...</span></p>
+                <p>The longitute of the space station is: <span id="longitude"> Detecting location...</span></p>
+                <p>Timestamp: <span id="timestamp"> Fetching timestamp...</span></p>
+
+
+            </div>
+
+            <p> The map below shows where the ISS is located above the Earth. Follow its movements!</p>
+
+            <div class="map">
+                <img src="images/map.jpg">
+                <div class="mapOverlay">
+                    <span id="marker">🚀</span>
+                </div>
+             
+            </div>
+
+        </main>
+        <script src="js/script.js"></script>
+
     </body>
 
 </html>
