@@ -1,6 +1,6 @@
 
 async function getISSLocation() {
-    const apiURL = "http://api.open-notify.org/iss-now.json";
+    const apiURL = "https://api.open-notify.org/iss-now.json";
 
     try {
         const response = await fetch(apiURL);
