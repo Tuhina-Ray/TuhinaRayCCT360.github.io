@@ -1,6 +1,6 @@
 
 async function getISSLocation() {
-    const apiURL = "https://api.open-notify.org/iss-now.json";
+    const apiURL = "https://api.wheretheiss.at/v1/satellites/25544";
 
     try {
         const response = await fetch(apiURL);
@@ -12,8 +12,8 @@ async function getISSLocation() {
         const data = await response.json();
 
         const timestamp = new Date(data.timestamp * 1000).toLocaleTimeString();
-        const latitude = data.iss_position.latitude;
-        const longitude = data.iss_position.longitude;
+        const latitude = data.latitude;
+        const longitude = data.longitude;
 
         document.getElementById('latitude').innerText = latitude;
         document.getElementById('longitude').innerText = longitude;
