@@ -1,6 +1,7 @@
 
 async function getISSLocation() {
     const apiURL = "https://api.wheretheiss.at/v1/satellites/25544";
+    //
 
     try {
         const response = await fetch(apiURL);
