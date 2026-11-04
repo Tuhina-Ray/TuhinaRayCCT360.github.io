@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+#wind-speed {
+  font-size: 2rem;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}

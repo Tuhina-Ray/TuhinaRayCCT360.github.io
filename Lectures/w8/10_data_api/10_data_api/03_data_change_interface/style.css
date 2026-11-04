@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+
+  transition: background-color 1s;
+}
+
+#temperature {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Weather states */
+
+.cold {
+  background-color: lightblue;
+}
+
+.mild {
+  background-color: lightyellow;
+}
+
+.hot {
+  background-color: lightsalmon;
+}
